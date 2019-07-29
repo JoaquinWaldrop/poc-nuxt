@@ -14,8 +14,8 @@
     "generate": "nuxt generate"
   },
   "dependencies": {
-    "nuxt": "^2.0.0",
-    "nuxt-sass-resources-loader": "^2.0.5"
+    "@nuxtjs/style-resources": "^0.1.2",
+    "nuxt": "^2.0.0"
   },
   "devDependencies": {
     "@nuxtjs/eslint-config": "^0.0.1",

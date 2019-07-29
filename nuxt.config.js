@@ -31,10 +31,14 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: [
-    '@nuxtjs/eslint-module',
-    ['nuxt-sass-resources-loader', '~/assets/styles/utils.sass']
-  ],
+  modules: ['@nuxtjs/eslint-module', '@nuxtjs/style-resources'],
+  /*
+   ** Nuxt.js style-resources
+   */
+  styleResources: {
+    // Settings here
+    sass: ['~/assets/styles/utils.sass']
+  },
   /*
    ** Build configuration
    */
@@ -49,7 +53,10 @@ export default {
           enforce: 'pre',
           test: /\.(js|vue)$/,
           loader: 'eslint-loader',
-          exclude: /(node_modules)/
+          exclude: /(node_modules)/,
+          options: {
+            fix: true
+          }
         })
       }
     }
