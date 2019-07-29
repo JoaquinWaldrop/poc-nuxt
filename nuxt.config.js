@@ -31,13 +31,27 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/eslint-module', '@nuxtjs/style-resources'],
+  modules: [],
   /*
-   ** Nuxt.js style-resources
+   ** Nuxt.js dev-modules
+   */
+  devModules: [
+    '@nuxtjs/eslint-module',
+    '@nuxtjs/style-resources',
+    '@nuxtjs/vuetify'
+  ],
+  /*
+   ** Style-resources options
    */
   styleResources: {
-    // Settings here
     sass: ['~/assets/styles/utils.sass']
+  },
+  /*
+   ** vuetify module configuration
+   ** https://github.com/nuxt-community/vuetify-module
+   */
+  vuetify: {
+    customVariables: ['~/assets/vuetify/variables.scss']
   },
   /*
    ** Build configuration
