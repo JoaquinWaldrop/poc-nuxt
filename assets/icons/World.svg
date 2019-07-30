@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Icons / World</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons-/-World" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Iconos_72px-49" transform="translate(8.000000, 8.000000)">
+            <path d="M27.99997,55.15271 L27.99997,1.21384" id="Path" stroke="#414345" stroke-width="1.74996" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M18.40607,53.126 C10.0524108,37.4143053 10.0098407,18.5880126 18.29236,2.8387" id="Path" stroke="#414345" stroke-width="1.8347" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M37.32281,53.126 C45.6764671,37.4143056 45.7190409,18.5880155 37.43653,2.8387" id="Path" stroke="#414345" stroke-width="1.8347" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M1.10666,28.10715 L55.04552,28.10715" id="Path" stroke="#C7393A" stroke-width="2" stroke-linejoin="round"></path>
+            <path d="M7.18045,10.70625 C20.3944839,16.5594514 35.4575542,16.6027639 48.70503,10.82565" id="Path" stroke="#C7393A" stroke-width="2" stroke-linejoin="round"></path>
+            <path d="M48.705,45.43408 C35.4909651,39.5808835 20.4278968,39.5375711 7.18042,45.31468" id="Path" stroke="#C7393A" stroke-width="2" stroke-linejoin="round"></path>
+            <path d="M28,1.7506 C42.4969555,1.7506 54.24869,13.5032678 54.24869,28.0002233 C54.24869,42.4971789 42.4964889,54.24938 27.9995333,54.24938 C13.5025778,54.24938 1.74991,42.4976455 1.74991,28.00069 C1.76626642,13.5099461 13.5092561,1.76695642 28,1.7506 L28,1.7506 Z M28,0.0006 C12.5365588,0.0006 0.00128001012,12.5367021 0.00128001012,28.0001433 C0.00128001012,43.4635845 12.5369255,55.99932 28.0003667,55.99932 C43.4638079,55.99932 56,43.4641312 56,28.00069 C56,12.5367302 43.4639598,0.0006 28,0.0006 L28,0.0006 Z" id="Shape" fill="#414345" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>
