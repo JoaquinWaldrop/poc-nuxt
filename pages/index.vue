@@ -23,6 +23,11 @@
     </div>
     <div class="testing">
       Testing
+      <v-card>
+        <v-card-title class="headline">
+          Welcome to the Vuetify + Nuxt.js template
+        </v-card-title>
+      </v-card>
     </div>
   </div>
 </template>

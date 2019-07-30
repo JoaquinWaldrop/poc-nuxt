@@ -1,3 +1,6 @@
+import client from './plugins/contentful.js'
+require('dotenv').config()
+
 export default {
   mode: 'universal',
   /*
@@ -27,11 +30,11 @@ export default {
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: [],
+  plugins: ['~/plugins/contentful'],
   /*
    ** Nuxt.js modules
    */
-  modules: [],
+  modules: ['@nuxtjs/dotenv'],
   /*
    ** Nuxt.js dev-modules
    */
@@ -61,6 +64,9 @@ export default {
      ** You can extend webpack config here
      */
     extend(config, ctx) {
+      config.node = {
+        fs: 'empty'
+      }
       // Run ESLint on save
       if (ctx.isDev && ctx.isClient) {
         config.module.rules.push({
