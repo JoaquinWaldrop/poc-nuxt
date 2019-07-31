@@ -7,9 +7,12 @@
         v-for="locale in availableLocales"
         :key="locale.code"
         :to="switchLocalePath(locale.code)"
+        @click="changeLanguage(locale.code)"
         >{{ locale.name }}</nuxt-link
       >
       <Logo />
+
+      <h1>{{ currentLocale }}</h1>
 
       <h1 class="title">
         s4n
@@ -63,6 +66,18 @@ export default {
     availableLocales() {
       //return this.$i18n.locales.filter((i) => i.code !== this.$i18n.locale)
       return this.$i18n.locales
+    },
+    currentLocale() {
+      return this.$i18n.locale
+    }
+  },
+  methods: {
+    /**
+     * Called when a language button is clicked
+     * Changes the i18n context variable's locale to the one selected
+     */
+    changeLanguage(lang) {
+      this.$i18n.locale = lang
     }
   }
 }
