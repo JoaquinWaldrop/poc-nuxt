@@ -77,5 +77,25 @@ export default {
         })
       }
     }
+  },
+  i18n: {
+    locales: [
+      {
+        code: 'en',
+        name: 'English'
+      },
+      {
+        code: 'es',
+        name: 'Español'
+      }
+    ],
+    defaultLocale: 'en',
+    vueI18n: {
+      fallbackLocale: 'en',
+      messages: {
+        en: require('./locales/en.json'),
+        es: require('./locales/es.json')
+      }
+    }
   }
 }
