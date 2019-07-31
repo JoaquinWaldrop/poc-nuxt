@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Icons / Code</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons-/-Code" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Iconos_72px-18" transform="translate(8.000000, 8.000000)">
+            <polyline id="Path" stroke="#3F4143" stroke-width="2" stroke-linejoin="round" points="40 1.951 40 16 54.06 16"></polyline>
+            <polyline id="Path" stroke="#3F4143" stroke-width="2" stroke-linejoin="round" points="40 1.951 40 16 54.06 16"></polyline>
+            <polyline id="Path" stroke="#3F4143" stroke-width="2" stroke-linejoin="round" points="40 1.951 40 16 54.06 16"></polyline>
+            <path d="M39.17157,2 L54,16.82841 L54,54 L2,54 L2,2 L39.17157,2 L39.17157,2 Z M40,0 L2,0 C0.8954305,0 0,0.8954305 0,2 L0,54 C0,55.1045695 0.8954305,56 2,56 L54,56 C55.1045695,56 56,55.1045695 56,54 L56,16.82843 C56,16.2979943 55.7892856,15.7892838 55.41421,15.41421 L40,0 Z" id="Shape" fill="#3F4143" fill-rule="nonzero"></path>
+            <polyline id="Path" stroke="#E73638" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="20.5 20.5 13 28 20.5 35.5"></polyline>
+            <polyline id="Path" stroke="#E73638" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="35.5 35.5 43 28 35.5 20.5"></polyline>
+        </g>
+    </g>
+</svg>

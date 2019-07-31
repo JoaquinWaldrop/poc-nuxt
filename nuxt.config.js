@@ -1,6 +1,3 @@
-import client from './plugins/contentful.js'
-require('dotenv').config()
-
 export default {
   mode: 'universal',
   /*
@@ -26,15 +23,15 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['~/assets/styles/main.sass'],
+  css: ['~/assets/styles/main.sass', 'aos/dist/aos.css'],
   /*
    ** Plugins to load before mounting the App
    */
-  plugins: ['~/plugins/contentful'],
+  plugins: ['~/plugins/contentful', { src: '~/plugins/aos', ssr: false }],
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/dotenv'],
+  modules: ['@nuxtjs/dotenv', 'nuxt-i18n'],
   /*
    ** Nuxt.js dev-modules
    */

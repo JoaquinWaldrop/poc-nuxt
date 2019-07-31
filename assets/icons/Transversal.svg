@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Icons / Transversal</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons-/-Transversal" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Iconos_72px-15" transform="translate(8.000000, 6.000000)">
+            <path d="M49,2 L49,22.94315" id="Path" stroke="#3F4143" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+            <polyline id="Path" stroke="#3E4143" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="44.757 5.241 49 0.999 53.243 5.241"></polyline>
+            <path d="M28.00002,58 L28.00002,37.05685" id="Path" stroke="#3F4143" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+            <path d="M7,58 L7,37.05685" id="Path" stroke="#3F4143" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M49,58 L49,37.05685" id="Path" stroke="#3F4143" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polyline id="Path" stroke="#3E4143" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="32.243 54.759 28 59.001 23.757 54.759"></polyline>
+            <path d="M7,2 L7,22.94315" id="Path" stroke="#3F4143" stroke-width="2" stroke-linecap="square" stroke-linejoin="round"></path>
+            <path d="M27.99998,2 L27.99998,22.94315" id="Path" stroke="#3F4143" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M7,24.70352 C9.89376514,24.70352 12.23961,27.0493982 12.23961,29.9431633 C12.23961,32.8369285 9.89373847,35.18278 6.99997333,35.18278 C4.10620819,35.18278 1.76035,32.8369151 1.76035,29.94315 C1.76361249,27.0507269 4.10757688,24.7067715 7,24.70352 L7,24.70352 Z M7,22.94315 C3.13400675,22.94315 0,26.0771568 0,29.94315 C0,33.8091432 3.13400675,36.94315 7,36.94315 C10.8659932,36.94315 14,33.8091432 14,29.94315 C14,28.0866102 13.2626072,26.3060866 11.9498353,24.9933147 C10.6370634,23.6805428 8.85653982,22.94315 7,22.94315 L7,22.94315 Z" id="Shape" fill="#E73638" fill-rule="nonzero"></path>
+            <path d="M49,24.70352 C51.8937651,24.70352 54.23961,27.0493982 54.23961,29.9431633 C54.23961,32.8369285 51.8937385,35.18278 48.9999733,35.18278 C46.1062082,35.18278 43.76035,32.8369151 43.76035,29.94315 C43.763618,27.0507292 46.1075792,24.706777 49,24.70352 L49,24.70352 Z M49,22.94315 C45.1340068,22.94315 42,26.0771568 42,29.94315 C42,33.8091432 45.1340068,36.94315 49,36.94315 C52.8659932,36.94315 56,33.8091432 56,29.94315 C56,28.0866102 55.2626072,26.3060866 53.9498353,24.9933147 C52.6370634,23.6805428 50.8565398,22.94315 49,22.94315 L49,22.94315 Z" id="Shape" fill="#E73638" fill-rule="nonzero"></path>
+            <polyline id="Path" stroke="#3E4143" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="2.757 5.241 7 0.999 11.243 5.241"></polyline>
+            <path d="M14,29.94312 L20.99998,29.94312" id="Path" stroke="#E73638" stroke-width="1.76035" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M34.99998,29.94312 L41.99996,29.94312" id="Path" stroke="#E73638" stroke-width="1.76035" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M28,24.94315 C30.7614237,24.94315 33,27.1817263 33,29.94315 C33,32.7045737 30.7614237,34.94315 28,34.94315 C25.2385763,34.94315 23,32.7045737 23,29.94315 C23.0031137,27.183017 25.239867,24.9462637 28,24.94315 L28,24.94315 Z M28,22.94315 C24.1340068,22.94315 21,26.0771568 21,29.94315 C21,33.8091432 24.1340068,36.94315 28,36.94315 C31.8659932,36.94315 35,33.8091432 35,29.94315 C35,28.0866102 34.2626072,26.3060866 32.9498353,24.9933147 C31.6370634,23.6805428 29.8565398,22.94315 28,22.94315 L28,22.94315 Z" id="Shape" fill="#3F4143" fill-rule="nonzero"></path>
+        </g>
+    </g>
+</svg>

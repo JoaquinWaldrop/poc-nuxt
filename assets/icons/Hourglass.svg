@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Icons / Hourglass</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons-/-Hourglass" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Iconos_72px-41" transform="translate(16.000000, 8.000000)" fill-rule="nonzero">
+            <path d="M33.18945,8 L33.18945,13.16422 L20,26.18915 L6.81055,13.16422 L6.81055,8 L33.18945,8 L33.18945,8 Z M35.18945,6 L4.81055,6 L4.81055,14 L20,29 L35.18945,14 L35.18945,6 Z" id="Shape" fill="#E73638"></path>
+            <path d="M20,28.90488 L33.18945,42.79816 L33.18945,48 L6.81055,48 L6.81055,42.79816 L20,28.90488 L20,28.90488 Z M20,26 L4.81055,42 L4.81055,50 L35.18945,50 L35.18945,42 L20,26 Z" id="Shape" fill="#E73638"></path>
+            <path d="M38,2 L38,6 L2,6 L2,2 L38,2 L38,2 Z M38,0 L2,0 C0.8954305,0 0,0.8954305 0,2 L0,6 C0,7.1045695 0.8954305,8 2,8 L38,8 C39.1045695,8 40,7.1045695 40,6 L40,2 C40,0.8954305 39.1045695,0 38,0 Z" id="Shape" fill="#414345"></path>
+            <path d="M38,50 L38,54 L2,54 L2,50 L38,50 L38,50 Z M38,48 L2,48 C0.8954305,48 0,48.8954305 0,50 L0,54 C0,55.1045695 0.8954305,56 2,56 L38,56 C39.1045695,56 40,55.1045695 40,54 L40,50 C40,48.8954305 39.1045695,48 38,48 Z" id="Shape" fill="#414345"></path>
+        </g>
+    </g>
+</svg>

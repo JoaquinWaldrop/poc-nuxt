@@ -1,6 +1,8 @@
 <template>
   <div class="container">
     <div>
+      <p>parrafo de prueba</p>
+      <h1>h1 de prueba</h1>
       <Logo />
       <h1 class="title">
         s4n
@@ -9,19 +11,30 @@
         Nuxt.js project for s4n company
       </h2>
       <div class="links">
-        <a href="https://nuxtjs.org/" target="_blank" class="button--green">
+        <a
+          href="https://nuxtjs.org/"
+          target="_blank"
+          class="button--green"
+          data-aos="zoom-out-right"
+        >
           Documentation
         </a>
         <a
           href="https://github.com/nuxt/nuxt.js"
           target="_blank"
           class="button--grey"
+          data-aos="fade-up"
         >
           GitHub
         </a>
       </div>
     </div>
-    <div class="testing">
+    <div
+      class="testing"
+      data-aos="flip-left"
+      data-aos-easing="ease-out-cubic"
+      data-aos-duration="2000"
+    >
       Testing
       <v-card>
         <v-card-title class="headline">
@@ -38,6 +51,12 @@ import Logo from '~/components/Logo.vue'
 export default {
   components: {
     Logo
+  },
+  computed: {
+    availableLocales() {
+      //return this.$i18n.locales.filter((i) => i.code !== this.$i18n.locale)
+      return this.$i18n.locales
+    }
   }
 }
 </script>

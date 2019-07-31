@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Icons / Mobile</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons-/-Mobile" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Iconos_72px-08" transform="translate(16.000000, 6.000000)">
+            <path d="M37.99992,2 L37.99741,58 L2.00316,58 L2.09773,2 L37.99992,2 L37.99992,2 Z M0.09774,1.99685 L0.0031575158,57.99685 C0.00232370775,58.5278285 0.21266814,59.037346 0.587831578,59.4131003 C0.962995016,59.7888546 1.4721808,60 2.00315752,60 L37.99741,60 C39.1019483,60 39.9973658,59.1046183 39.99741,58.00008 L39.99992,2.00008 C39.99992,1.46963316 39.7892369,0.960904781 39.4141618,0.585814722 C39.0390868,0.210724662 38.5303668,-3.55271368e-15 37.99992,-3.55271368e-15 L2.09773,-3.55271368e-15 C0.994393387,-3.55271368e-15 0.0994777552,0.893514756 0.09774,1.99685 Z" id="Shape" fill="#3F4143" fill-rule="nonzero"></path>
+            <path d="M0.02647,46.04385 L39.77542,46.04385" id="Path" stroke="#3F4143" stroke-width="2" stroke-linejoin="round"></path>
+            <path d="M13.99937,52 L25.99937,52" id="Path" stroke="#E73638" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M5.5,12.5007 L12.5,5.4993" id="Path" stroke="#E73638" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <path d="M5.57488,20.4993 L20.57488,5.4993" id="Path" stroke="#E73638" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+        </g>
+    </g>
+</svg>

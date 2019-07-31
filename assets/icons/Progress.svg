@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="72px" height="72px" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 55.2 (78181) - https://sketchapp.com -->
+    <title>Icons / Progress</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icons-/-Progress" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Iconos_72px-12" transform="translate(4.000000, 4.000000)">
+            <path d="M32.0007,2 C35.591707,2.00479696 38.7292764,4.42708276 39.64285,7.89994 L24.35718,7.89994 C25.2712469,4.42683127 28.409324,2.00458778 32.0007,2 L32.0007,2 Z M32.0007,-8.8817842e-16 C26.5333902,0.000662589105 22.1014271,4.43263021 22.10077,9.89994 L41.89923,9.89994 C41.89923,4.43290242 37.4677375,0.000773121889 32.0007,-8.8817842e-16 Z" id="Shape" fill="#3F4143" fill-rule="nonzero"></path>
+            <polyline id="Path" stroke="#3F4143" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="20 62 32 56 44 62"></polyline>
+            <path d="M62,10 L61.76982,46 L2.0162,46 L2,10 L62,10 L62,10 Z M-2.02793125e-07,10.0009 L0.0162,46.0009 C0.0166968982,47.105118 0.911981877,48 2.0162,48 L61.76983,48 C62.8694044,48 63.7627482,47.1123419 63.76978,46.01279 L63.9999998,10.01279 C64.0033663,9.48015138 63.7941628,8.96815771 63.4187289,8.59031532 C63.043295,8.21247294 62.5326495,8 61.9999998,8 L1.9999998,8 C1.46941105,8 0.960566783,8.21083717 0.585468144,8.5861046 C0.210369506,8.96137203 -2.02793125e-07,9.4703111 -2.02793125e-07,10.0009 Z" id="Shape" fill="#3F4143" fill-rule="nonzero"></path>
+            <polyline id="Path" stroke="#E73638" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="11.5 39.5 28.5 24.5 35.5 31.5 50.5 16.5"></polyline>
+            <path d="M32,48 L32,56" id="Path" stroke="#3F4143" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+            <polyline id="Path" stroke="#E73638" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="44.536 16.464 50.536 16.5 50.5 22.5"></polyline>
+        </g>
+    </g>
+</svg>
