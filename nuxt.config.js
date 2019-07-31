@@ -31,7 +31,7 @@ export default {
   /*
    ** Nuxt.js modules
    */
-  modules: ['@nuxtjs/dotenv'],
+  modules: ['@nuxtjs/dotenv', 'nuxt-i18n'],
   /*
    ** Nuxt.js dev-modules
    */

@@ -1,6 +1,8 @@
 <template>
   <div class="container">
     <div>
+      <p>parrafo de prueba</p>
+      <h1>h1 de prueba</h1>
       <Logo />
       <h1 class="title">
         s4n
@@ -49,6 +51,12 @@ import Logo from '~/components/Logo.vue'
 export default {
   components: {
     Logo
+  },
+  computed: {
+    availableLocales() {
+      //return this.$i18n.locales.filter((i) => i.code !== this.$i18n.locale)
+      return this.$i18n.locales
+    }
   }
 }
 </script>
