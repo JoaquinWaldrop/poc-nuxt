@@ -2,8 +2,15 @@
   <div class="container">
     <div>
       <p>parrafo de prueba</p>
-      <h1>h1 de prueba</h1>
+      <h1>{{ $t('welcome') }}</h1>
+      <nuxt-link
+        v-for="locale in availableLocales"
+        :key="locale.code"
+        :to="switchLocalePath(locale.code)"
+        >{{ locale.name }}</nuxt-link
+      >
       <Logo />
+
       <h1 class="title">
         s4n
       </h1>
