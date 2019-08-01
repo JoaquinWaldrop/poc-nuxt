@@ -86,6 +86,9 @@ export default {
       )
     }
   },
+  /*
+   ** Internationalization configuration
+   */
   i18n: {
     locales: [
       {
@@ -97,6 +100,9 @@ export default {
         name: 'Español'
       }
     ],
+    vuex: {
+      syncLocale: true
+    },
     defaultLocale: 'en',
     vueI18n: {
       fallbackLocale: 'en',

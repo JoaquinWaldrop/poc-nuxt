@@ -1,102 +1,41 @@
 <template>
   <div class="container">
     <div>
-      <p>parrafo de prueba</p>
       <h1>{{ $t('welcome') }}</h1>
-      <nuxt-link
-        v-for="locale in availableLocales"
-        :key="locale.code"
-        :to="switchLocalePath(locale.code)"
-        >{{ locale.name }}</nuxt-link
-      >
-      <Logo />
-
-      <h1 class="title">
-        s4n
-      </h1>
-      <h2 class="subtitle">
-        Nuxt.js project for s4n company
-      </h2>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          class="button--green"
-          data-aos="zoom-out-right"
+      <ul>
+        <nuxt-link
+          v-for="locale in availableLocales"
+          :key="locale.code"
+          :to="switchLocalePath(locale.code)"
+          >{{ locale.name }}</nuxt-link
         >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          class="button--grey"
-          data-aos="fade-up"
-        >
-          GitHub
-        </a>
-      </div>
-    </div>
-    <div
-      class="testing"
-      data-aos="flip-left"
-      data-aos-easing="ease-out-cubic"
-      data-aos-duration="2000"
-    >
-      Testing
-      <v-card>
-        <v-card-title class="headline">
-          Welcome to the Vuetify + Nuxt.js template
-        </v-card-title>
-      </v-card>
+      </ul>
     </div>
   </div>
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+import client from '~/plugins/contentful'
 
 export default {
-  components: {
-    Logo
-  },
   computed: {
     availableLocales() {
-      //return this.$i18n.locales.filter((i) => i.code !== this.$i18n.locale)
       return this.$i18n.locales
+    },
+    currentLocale() {
+      return this.$store.state.i18n.locale
     }
+  },
+  asyncData({ store }) {
+    const locale = store.state.i18n.locale === 'en' ? 'en-US' : 'es-419'
+    return client
+      .getEntries({
+        content_type: 'project',
+        locale: locale
+      })
+      .then((entries) => {
+        return { projects: entries.items }
+      })
   }
 }
 </script>
-
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-    'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>
