@@ -1,3 +1,5 @@
+const StyleLintPlugin = require('stylelint-webpack-plugin')
+
 export default {
   mode: 'universal',
   /*
@@ -76,6 +78,12 @@ export default {
           }
         })
       }
+      // Stylelint
+      config.plugins.push(
+        new StyleLintPlugin({
+          syntax: 'sass'
+        })
+      )
     }
   },
   i18n: {

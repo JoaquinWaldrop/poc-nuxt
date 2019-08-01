@@ -9,7 +9,11 @@
       "autoFix": true
     }
   ],
+  "vetur.validation.template": false,
+  // turn it off for JS
+  "[javascript]": { "editor.formatOnSave": false },
   "eslint.autoFixOnSave": true,
-  "editor.formatOnSave": false,
-  "vetur.validation.template": false
+  // those are for auto-fixs configs
+  "prettier.stylelintIntegration": true,
+  "editor.formatOnSave": true
 }
