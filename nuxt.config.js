@@ -78,8 +78,10 @@ export default {
       }
     }
   },
+  /*
+   ** Internationalization configuration
+   */
   i18n: {
-    locale: 'en',
     locales: [
       {
         code: 'en',
@@ -90,6 +92,9 @@ export default {
         name: 'Español'
       }
     ],
+    vuex: {
+      syncLocale: true
+    },
     defaultLocale: 'en',
     vueI18n: {
       fallbackLocale: 'en',
