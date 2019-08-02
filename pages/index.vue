@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <h1>{{ $t('welcome') }}</h1>
+      <h1 class="testing">{{ $t('welcome') }}</h1>
       <ul>
         <nuxt-link
           v-for="locale in availableLocales"
@@ -11,13 +11,18 @@
         >
       </ul>
     </div>
+    <Footer />
   </div>
 </template>
 
 <script>
 import client from '~/plugins/contentful'
+import Footer from '~/components/Footer.vue'
 
 export default {
+  components: {
+    Footer
+  },
   computed: {
     availableLocales() {
       return this.$i18n.locales
