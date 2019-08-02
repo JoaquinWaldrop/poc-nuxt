@@ -1,0 +1,6 @@
+/** This file loads all the Resources needed by SASS
+ * See:
+ * https://github.com/anteriovieira/nuxt-sass-resources-loader
+ * https://hackernoon.com/how-i-use-scss-variables-mixins-functions-globally-in-nuxt-js-projects-while-compiling-css-utilit-58bb6ff30438
+ */
+@import 'colors', 'mixings', 'fontface', 'functions', 'variables';

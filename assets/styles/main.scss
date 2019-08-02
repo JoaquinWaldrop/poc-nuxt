@@ -1,0 +1,15 @@
+.testing {
+  @include dimensions(350px, 200px);
+  background-color: $greyish-brown;
+  color: $white;
+
+  font-family: 'Cambria';
+}
+
+// Desktop
+@import 'desktop/main';
+
+// Mobile
+@media only screen and (max-width: 767px) {
+  @import 'mobile/main';
+}

@@ -25,7 +25,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: ['~/assets/styles/main.sass', 'aos/dist/aos.css'],
+  css: ['~/assets/styles/main.scss', 'aos/dist/aos.css'],
   /*
    ** Plugins to load before mounting the App
    */
@@ -46,7 +46,7 @@ export default {
    ** Style-resources options
    */
   styleResources: {
-    sass: ['~/assets/styles/utils.sass']
+    sass: ['~/assets/styles/utils.scss']
   },
   /*
    ** vuetify module configuration
@@ -81,7 +81,7 @@ export default {
       // Stylelint
       config.plugins.push(
         new StyleLintPlugin({
-          syntax: 'sass'
+          syntax: 'scss'
         })
       )
     }

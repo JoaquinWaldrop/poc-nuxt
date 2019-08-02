@@ -1,0 +1,17 @@
+@mixin text($color, $font-family, $font-size, $line-height, $spacing) {
+  color: $color;
+  font-family: $font-family;
+  font-size: $font-size;
+  letter-spacing: $spacing;
+  line-height: $line-height;
+}
+
+@mixin dimensions($width, $height) {
+  height: $height;
+  width: $width;
+}
+
+@mixin max-dimensions($maxwidth, $maxheight) {
+  max-height: $maxheight;
+  max-width: $maxwidth;
+}
