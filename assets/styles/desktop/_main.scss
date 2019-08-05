@@ -1,11 +1,13 @@
-.footer__links {
-  display: flex;
-}
+.footer {
+  &__links {
+    display: flex;
+  }
 
-.footer__links-container {
-  display: flex;
-}
+  &__links-container {
+    display: flex;
+  }
 
-.footer__copyright {
-  align-self: center;
+  &__copyright {
+    align-self: center;
+  }
 }

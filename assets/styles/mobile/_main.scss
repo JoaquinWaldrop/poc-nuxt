@@ -1,12 +1,14 @@
-.footer__links {
-  flex-direction: column;
-}
+.footer {
+  &__links {
+    flex-direction: column;
+  }
 
-.footer__links-container {
-  flex-direction: column;
-}
+  &__links-container {
+    flex-direction: column;
+  }
 
-.footer__copyright {
-  order: 1;
-  text-align: center;
+  &__copyright {
+    order: 1;
+    text-align: center;
+  }
 }
