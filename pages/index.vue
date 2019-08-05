@@ -2,14 +2,6 @@
   <div class="container">
     <div>
       <h1>{{ $t('welcome') }}</h1>
-      <ul>
-        <nuxt-link
-          v-for="locale in availableLocales"
-          :key="locale.code"
-          :to="switchLocalePath(locale.code)"
-          >{{ locale.name }}</nuxt-link
-        >
-      </ul>
     </div>
   </div>
 </template>
@@ -21,9 +13,6 @@ export default {
   computed: {
     availableLocales() {
       return this.$i18n.locales
-    },
-    currentLocale() {
-      return this.$store.state.i18n.locale
     }
   },
   asyncData({ store }) {
