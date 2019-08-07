@@ -16,7 +16,14 @@ export default {
         content: process.env.npm_package_description || ''
       }
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }]
+    link: [
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {
+        rel: 'stylesheet',
+        href:
+          'https://cdnjs.cloudflare.com/ajax/libs/flexboxgrid/6.3.1/flexboxgrid.min.css'
+      }
+    ]
   },
   /*
    ** Customize the progress-bar color
@@ -37,23 +44,12 @@ export default {
   /*
    ** Nuxt.js dev-modules
    */
-  devModules: [
-    '@nuxtjs/eslint-module',
-    '@nuxtjs/style-resources',
-    '@nuxtjs/vuetify'
-  ],
+  devModules: ['@nuxtjs/eslint-module', '@nuxtjs/style-resources'],
   /*
    ** Style-resources options
    */
   styleResources: {
     sass: ['~/assets/styles/utils.scss']
-  },
-  /*
-   ** vuetify module configuration
-   ** https://github.com/nuxt-community/vuetify-module
-   */
-  vuetify: {
-    customVariables: ['~/assets/vuetify/variables.scss']
   },
   /*
    ** Build configuration

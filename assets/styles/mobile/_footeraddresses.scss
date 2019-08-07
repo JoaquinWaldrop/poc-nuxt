@@ -1,0 +1,40 @@
+.footer {
+  &__addresses {
+    flex-direction: column;
+    padding: 0;
+  }
+
+  &__address {
+    border-bottom: 1px solid $pale-grey-op;
+    justify-content: space-between;
+    margin: 0;
+    padding: mobile(20px) mobile(24px) mobile(11px);
+    width: 100%;
+
+    h1 {
+      @include text(
+        $white,
+        'Montserrat-Bold',
+        mobile(16px),
+        mobile(24px),
+        normal
+      );
+    }
+
+    p {
+      @include text($white, 'Cambria', mobile(14px), mobile(24px), normal);
+    }
+  }
+
+  &__addresses-divider {
+    display: none;
+  }
+
+  &__dropdown-icon {
+    padding-top: mobile(10px);
+
+    img {
+      fill: $white;
+    }
+  }
+}

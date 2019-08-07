@@ -1,5 +1,5 @@
 <template>
-  <div class="container">
+  <div>
     <div>
       <h1 class="testing">{{ $t('welcome') }}</h1>
       <ul>
@@ -11,7 +11,10 @@
         >
       </ul>
     </div>
-    <Footer />
+    <div class="box">
+      <div class="barra"></div>
+      <Footer />
+    </div>
   </div>
 </template>
 

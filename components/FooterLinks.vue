@@ -1,23 +1,32 @@
 <template>
-  <v-container>
-    <v-layout class="footer__links-container">
-      <v-flex class="footer__copyright">{{ copyRight }}</v-flex>
-      <v-flex>
-        <v-list>
-          <v-list-item-group color="primary" class="footer__links">
-            <v-list-item v-for="(item, i) in items" :key="i">
-              <v-list-item-icon>
-                <v-icon color="white">mdi-email</v-icon>
-              </v-list-item-icon>
-              <v-list-item-content>
-                <v-list-item-title v-text="item.title"></v-list-item-title>
-              </v-list-item-content>
-            </v-list-item>
-          </v-list-item-group>
-        </v-list>
-      </v-flex>
-    </v-layout>
-  </v-container>
+  <div class="footer__links-container row">
+    <ul class="footer__links col-xs-12 col-md-6 center-xs start-md">
+      <li v-for="(item, i) in items" :key="i" class="footer__link-item">
+        <div v-if="i != 0">
+          <a :href="item.url">
+            <img
+              src="~/assets/images/linked-in.svg"
+              :alt="item.url"
+              class="footer__icon"
+            />
+          </a>
+        </div>
+        <div v-else class="footer__email">
+          <a :href="item.url">
+            <img
+              src="~/assets/images/linked-in.svg"
+              :alt="item.url"
+              class="footer__icon"
+            />
+          </a>
+          <a :href="item.url" class="footer__text">{{ item.url }}</a>
+        </div>
+      </li>
+    </ul>
+    <div class="footer__copyright col-xs-12 col-md-6 center-xs end-md">
+      {{ copyRight }}
+    </div>
+  </div>
 </template>
 
 <script>
@@ -25,10 +34,12 @@ export default {
   data() {
     return {
       items: [
-        { title: 'info@s4n.co', link: 'www.google.co.ve' },
-        { title: 'www.linkedin.com/s4n', link: 'www.google.co.ve' },
-        { title: 'www.facebook.com/s4n', link: 'www.google.co.ve' },
-        { title: 'www.twitter/s4n', link: 'www.google.co.ve' }
+        { url: 'info@s4n.co', icon: '~/assets/images/ic-mail.svg' },
+        {
+          url: 'www.linkedin.com/s4n',
+          icon: '~/assets/icons/linked-in.svg'
+        },
+        { url: 'www.youtube.com', icon: '~/assets/images/youtube.svg' }
       ],
       copyRight: `© Copyright ${new Date().getFullYear()} S4N`
     }

@@ -1,13 +1,10 @@
-.footer {
-  &__links {
-    display: flex;
-  }
+@import 'footer', 'footerlinks', 'footeraddresses';
 
-  &__links-container {
-    display: flex;
-  }
+.box {
+  display: flex;
+}
 
-  &__copyright {
-    align-self: center;
-  }
+.barra {
+  background-color: $ocean-blue;
+  width: desktop(82px);
 }

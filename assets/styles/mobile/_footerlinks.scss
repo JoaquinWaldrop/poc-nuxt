@@ -1,0 +1,27 @@
+.footer {
+  &__links-container {
+    flex-direction: column;
+  }
+
+  &__links {
+    padding: mobile(29px) 0 mobile(52px);
+  }
+
+  &__link-item {
+    margin-right: mobile(32px);
+  }
+
+  &__icon {
+    @include max-dimensions(mobile(24px), mobile(24px));
+  }
+
+  &__text {
+    @include text($white, 'Cambria', mobile(14px), mobile(24px), normal);
+    margin-left: mobile(11px);
+  }
+
+  &__copyright {
+    @include text($white, 'Cambria', mobile(14px), mobile(24px), normal);
+    text-align: center;
+  }
+}

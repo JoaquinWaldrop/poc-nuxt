@@ -1,0 +1,1495 @@
+@mixin banner-h1-right-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 170px;
+  font-weight: 800;
+  text-align: right;
+}
+
+@mixin banner-h1-left-black {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 170px;
+  font-weight: 800;
+}
+
+@mixin banner-h1-center-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 170px;
+  font-weight: 800;
+  text-align: center;
+}
+
+@mixin banner-h1-center-black {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 170px;
+  font-weight: 800;
+  text-align: center;
+}
+
+@mixin banner-h1-center-stroke {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 170px;
+  font-weight: 800;
+  text-align: center;
+}
+
+@mixin banner-h1-left-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 170px;
+  font-weight: 800;
+}
+
+@mixin banner-h1-left-stroke {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 170px;
+  font-weight: 800;
+}
+
+@mixin banner-h1-right-black {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 170px;
+  font-weight: 800;
+  text-align: right;
+}
+
+@mixin banner-h1-right-stroke {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 170px;
+  font-weight: 800;
+  text-align: right;
+}
+
+@mixin banner-h2-left-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 148px;
+  font-weight: 800;
+}
+
+@mixin banner-h2-right-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 148px;
+  font-weight: 800;
+  text-align: right;
+}
+
+@mixin banner-h2-center-stroke {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 148px;
+  font-weight: 800;
+  text-align: center;
+}
+
+@mixin banner-h2-right-stroke {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 148px;
+  font-weight: 800;
+  text-align: right;
+}
+
+@mixin banner-h2-left-stroke {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 148px;
+  font-weight: 800;
+}
+
+@mixin banner-h2-left-black {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 148px;
+  font-weight: 800;
+}
+
+@mixin banner-h2-right-black {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 148px;
+  font-weight: 800;
+  text-align: right;
+}
+
+@mixin banner-h2-center-black {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 148px;
+  font-weight: 800;
+  text-align: center;
+}
+
+@mixin banner-h2-center-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 148px;
+  font-weight: 800;
+  text-align: center;
+}
+
+@mixin head-line-head-1-center-stroke {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+}
+
+@mixin banner-h3-center-black {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+}
+
+@mixin banner-h3-left-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+@mixin banner-h3-center-stroke {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+}
+
+@mixin banner-h3-center-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+}
+
+@mixin head-line-head-1-center-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+}
+
+@mixin banner-h3-left-stroke {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+@mixin banner-h3-left-black {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+@mixin banner-h3-right-stroke {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: right;
+}
+
+@mixin head-line-head-1-right-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: right;
+}
+
+@mixin head-line-head-1-right-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: right;
+}
+
+@mixin head-line-head-1-left-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+@mixin banner-h3-right-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: right;
+}
+
+@mixin head-line-head-1-center-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: center;
+}
+
+@mixin head-line-head-1-left-stroke {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+@mixin banner-h3-right-black {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: right;
+}
+
+@mixin head-line-head-1-right-stroke {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 800;
+  text-align: right;
+}
+
+@mixin head-line-head-1-left-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 48px;
+  font-weight: 800;
+}
+
+@mixin banner-h4-center-stroke {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+}
+
+@mixin banner-h4-right-stroke {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: right;
+}
+
+@mixin banner-h4-left-black {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+@mixin banner-h4-right-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: right;
+}
+
+@mixin banner-h4-left-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+@mixin banner-h4-left-stroke {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 800;
+}
+
+@mixin banner-h4-center-black {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+}
+
+@mixin banner-h4-right-black {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: right;
+}
+
+@mixin banner-h4-center-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+}
+
+@mixin head-line-head-2-left-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+@mixin head-line-head-2-left-stroke {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+@mixin head-line-head-2-right-stroke {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: right;
+}
+
+@mixin head-line-head-2-right-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: right;
+}
+
+@mixin head-line-head-2-center-stroke {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+
+@mixin head-line-head-2-center-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+
+@mixin head-line-head-2-center-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: center;
+}
+
+@mixin head-line-head-2-left-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 800;
+}
+
+@mixin head-line-head-2-right-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 32px;
+  font-weight: 800;
+  text-align: right;
+}
+
+@mixin head-line-head-3-left-stroke {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+@mixin head-line-head-3-left-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+@mixin head-line-head-3-right-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 800;
+  text-align: right;
+}
+
+@mixin head-line-head-3-center-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+}
+
+@mixin head-line-head-3-right-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 800;
+  text-align: right;
+}
+
+@mixin head-line-head-3-center-stroke {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+}
+
+@mixin head-line-head-3-center-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 800;
+  text-align: center;
+}
+
+@mixin head-line-head-3-left-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 800;
+}
+
+@mixin head-line-head-3-right-stroke {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 25px;
+  font-weight: 800;
+  text-align: right;
+}
+
+@mixin body-body-3-right-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: right;
+}
+
+@mixin body-body-3-left-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+@mixin body-body-3-left-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 24px;
+  line-height: 1.5;
+}
+
+@mixin body-body-3-center-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+@mixin body-body-3-center-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: center;
+}
+
+@mixin body-body-3-right-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: right;
+}
+
+@mixin body-body-1-center-white {
+  color: #555;
+  font-family: Cambria;
+  font-size: 22px;
+  line-height: 1.55;
+  text-align: center;
+}
+
+@mixin body-body-1-center-grey {
+  color: #555;
+  font-family: Cambria;
+  font-size: 22px;
+  line-height: 1.55;
+  text-align: center;
+}
+
+@mixin body-body-1-left-white {
+  color: #555;
+  font-family: Cambria;
+  font-size: 22px;
+  line-height: 1.55;
+}
+
+@mixin body-body-1-right-white {
+  color: #555;
+  font-family: Cambria;
+  font-size: 22px;
+  line-height: 1.55;
+  text-align: right;
+}
+
+@mixin body-body-1-right-grey {
+  color: #555;
+  font-family: Cambria;
+  font-size: 22px;
+  line-height: 1.55;
+  text-align: right;
+}
+
+@mixin body-body-1-left-grey {
+  color: #555;
+  font-family: Cambria;
+  font-size: 22px;
+  line-height: 1.55;
+}
+
+@mixin head-line-head-4-center-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+}
+
+@mixin head-line-head-4-left-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+@mixin head-line-head-4-center-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+}
+
+@mixin head-line-head-4-right-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: right;
+}
+
+@mixin head-line-head-4-left-black {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+@mixin head-line-head-4-right-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: right;
+}
+
+@mixin head-line-head-4-right-stroke {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: right;
+}
+
+@mixin head-line-head-4-center-black {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+}
+
+@mixin head-line-head-4-left-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+@mixin head-line-head-4-right-black {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: right;
+}
+
+@mixin head-line-head-4-center-stroke {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 800;
+  text-align: center;
+}
+
+@mixin head-line-head-4-left-stroke {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+@mixin subtitle-subtitle-1-left-red {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@mixin subtitle-subtitle-1-center-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@mixin subtitle-subtitle-1-left-black {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@mixin subtitle-subtitle-1-right-red {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+}
+
+@mixin subtitle-subtitle-1-right-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+}
+
+@mixin caption-caption-1-left-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@mixin caption-caption-1-center-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@mixin subtitle-subtitle-1-right-black {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+}
+
+@mixin subtitle-subtitle-1-center-red {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@mixin caption-caption-1-right-white {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+}
+
+@mixin subtitle-subtitle-1-left-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@mixin caption-caption-1-left-white {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+@mixin subtitle-subtitle-1-center-black {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@mixin caption-caption-1-center-white {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@mixin caption-caption-1-right-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: right;
+}
+
+@mixin caption-caption-2-right-white {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: right;
+}
+
+@mixin caption-caption-2-right-grey {
+  color: #808080;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: right;
+}
+
+@mixin caption-caption-2-left-grey {
+  color: #808080;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@mixin caption-caption-2-center-grey {
+  color: #808080;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+@mixin caption-caption-2-left-white {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+@mixin caption-caption-2-center-white {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+}
+
+@mixin body-body-2-left-grey {
+  color: #555;
+  font-family: Cambria;
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+@mixin body-body-2-center-white {
+  color: #555;
+  font-family: Cambria;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+}
+
+@mixin body-body-2-center-grey {
+  color: #555;
+  font-family: Cambria;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: center;
+}
+
+@mixin body-body-2-right-grey {
+  color: #555;
+  font-family: Cambria;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: right;
+}
+
+@mixin body-body-2-right-white {
+  color: #555;
+  font-family: Cambria;
+  font-size: 18px;
+  line-height: 1.33;
+  text-align: right;
+}
+
+@mixin body-body-2-left-white {
+  color: #555;
+  font-family: Cambria;
+  font-size: 18px;
+  line-height: 1.33;
+}
+
+@mixin body-body-4-center-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: center;
+}
+
+@mixin body-body-4-right-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: right;
+}
+
+@mixin body-body-4-right-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: right;
+}
+
+@mixin body-body-4-center-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 1.67;
+  text-align: center;
+}
+
+@mixin body-body-4-left-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+@mixin body-body-4-left-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 18px;
+  line-height: 1.67;
+}
+
+@mixin subtitle-subtitle-2-left-red {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@mixin subtitle-subtitle-2-left-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@mixin subtitle-subtitle-2-center-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@mixin head-line-head-5-left-stroke {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+@mixin head-line-head-5-left-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+@mixin head-line-head-5-center-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+}
+
+@mixin head-line-head-5-right-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: right;
+}
+
+@mixin subtitle-subtitle-2-right-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: right;
+}
+
+@mixin subtitle-subtitle-2-center-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@mixin head-line-head-5-center-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+}
+
+@mixin subtitle-subtitle-2-right-red {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: right;
+}
+
+@mixin head-line-head-5-right-stroke {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: right;
+}
+
+@mixin subtitle-subtitle-2-left-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+@mixin subtitle-subtitle-2-right-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: right;
+}
+
+@mixin head-line-head-5-right-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: right;
+}
+
+@mixin subtitle-subtitle-2-center-red {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@mixin head-line-head-5-center-stroke {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+  text-align: center;
+}
+
+@mixin head-line-head-5-left-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+@mixin body-card-1-right-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: right;
+}
+
+@mixin body-card-1-center-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+}
+
+@mixin body-card-1-left-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+@mixin body-card-1-right-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: right;
+}
+
+@mixin body-card-1-center-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+}
+
+@mixin body-card-1-left-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 1.63;
+}
+
+@mixin button-button-1-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@mixin caption-caption-3-right-white {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: right;
+}
+
+@mixin caption-caption-3-center-white {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@mixin caption-caption-3-left-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@mixin caption-caption-3-center-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@mixin caption-caption-3-right-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: right;
+}
+
+@mixin button-button-1-red {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@mixin caption-caption-3-left-white {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@mixin button-button-1-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+@mixin caption-caption-4-right-grey {
+  color: #808080;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: right;
+}
+
+@mixin caption-caption-4-left-white {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@mixin caption-caption-4-left-grey {
+  color: #808080;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@mixin caption-caption-4-right-white {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: right;
+}
+
+@mixin caption-caption-4-center-grey {
+  color: #808080;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+@mixin caption-caption-4-center-white {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: 500;
+  text-align: center;
+}
+
+@mixin body-body-5-right-grey {
+  color: #555;
+  font-family: Cambria;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: right;
+}
+
+@mixin body-body-5-center-white {
+  color: #555;
+  font-family: Cambria;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
+}
+
+@mixin body-body-5-right-white {
+  color: #555;
+  font-family: Cambria;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: right;
+}
+
+@mixin body-body-5-left-white {
+  color: #555;
+  font-family: Cambria;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+@mixin body-body-5-center-grey {
+  color: #555;
+  font-family: Cambria;
+  font-size: 14px;
+  line-height: 1.71;
+  text-align: center;
+}
+
+@mixin body-body-5-left-grey {
+  color: #555;
+  font-family: Cambria;
+  font-size: 14px;
+  line-height: 1.71;
+}
+
+@mixin body-body-6-left-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 1.43;
+}
+
+@mixin body-body-6-center-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: center;
+}
+
+@mixin body-body-6-right-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: right;
+}
+
+@mixin body-body-6-right-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: right;
+}
+
+@mixin body-body-6-center-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 1.43;
+  text-align: center;
+}
+
+@mixin body-body-6-left-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 1.43;
+}
+
+@mixin subtitle-subtitle-3-right-red {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: right;
+}
+
+@mixin subtitle-subtitle-3-center-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@mixin subtitle-subtitle-3-right-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: right;
+}
+
+@mixin subtitle-subtitle-3-left-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+@mixin subtitle-subtitle-3-right-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: right;
+}
+
+@mixin subtitle-subtitle-3-left-red {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+@mixin button-button-2-red {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+@mixin subtitle-subtitle-3-center-red {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@mixin subtitle-subtitle-3-left-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+@mixin subtitle-subtitle-3-center-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+  text-align: center;
+}
+
+@mixin button-button-2-white {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+@mixin button-button-2-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+@mixin body-body-7-left-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 12px;
+  line-height: 1.67;
+}
+
+@mixin body-body-7-right-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 12px;
+  line-height: 1.67;
+  text-align: right;
+}
+
+@mixin body-body-7-center-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 12px;
+  line-height: 1.67;
+  text-align: center;
+}
+
+@mixin body-body-7-center-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 12px;
+  line-height: 1.67;
+  text-align: center;
+}
+
+@mixin body-body-7-right-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 12px;
+  line-height: 1.67;
+  text-align: right;
+}
+
+@mixin body-body-7-left-white {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 12px;
+  line-height: 1.67;
+}
+
+@mixin button-button-4-red {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+@mixin button-button-3-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+@mixin button-button-3-white {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+@mixin button-button-4-white {
+  color: $white;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+@mixin button-button-3-red {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: bold;
+}
+
+@mixin button-button-4-grey {
+  color: #555;
+  font-family: Montserrat;
+  font-size: 10px;
+  font-weight: bold;
+}

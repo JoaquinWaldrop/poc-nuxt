@@ -1,0 +1,35 @@
+.footer {
+  &__addresses {
+    padding: 0 0 0 0.5rem;
+  }
+
+  &__address {
+    display: flex;
+    margin-right: desktop(124px);
+    width: desktop(330px);
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    h1 {
+      @include text(
+        $white,
+        'Montserrat-ExtraBold',
+        desktop(25px),
+        normal,
+        normal
+      );
+    }
+
+    p {
+      @include text($white, 'Cambria', desktop(22px), desktop(34px), normal);
+    }
+  }
+
+  &__addresses-divider {
+    border-top: $white solid 2px;
+    margin: desktop(16px) 0;
+    width: desktop(43px);
+  }
+}

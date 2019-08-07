@@ -1,0 +1,31 @@
+.footer {
+  &__links {
+    display: flex;
+  }
+
+  &__link-item {
+    list-style: none;
+    margin-right: desktop(72px);
+  }
+
+  &__email {
+    align-items: center;
+    display: flex;
+  }
+
+  &__icon {
+    @include max-dimensions(desktop(32px), desktop(31px));
+    color: $white;
+  }
+
+  &__text {
+    @include text($white, 'Cambria', desktop(18px), desktop(24px), normal);
+    margin-left: desktop(17px);
+    text-decoration: none;
+  }
+
+  &__copyright {
+    @include text($white, 'Cambria', desktop(18px), desktop(24px), normal);
+    align-self: center;
+  }
+}

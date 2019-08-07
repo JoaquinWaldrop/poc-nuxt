@@ -1,0 +1,11 @@
+@function desktop($object) {
+  $vw: 1440 * 0.01 * 1px;
+
+  @return $object / $vw * 1vw;
+}
+
+@function mobile($object) {
+  $vw: 320 * 0.01 * 1px;
+
+  @return $object / $vw * 1vw;
+}

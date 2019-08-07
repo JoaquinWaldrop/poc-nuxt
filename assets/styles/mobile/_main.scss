@@ -1,14 +1,5 @@
-.footer {
-  &__links {
-    flex-direction: column;
-  }
+@import 'footer', 'footerlinks', 'footeraddresses';
 
-  &__links-container {
-    flex-direction: column;
-  }
-
-  &__copyright {
-    order: 1;
-    text-align: center;
-  }
+.barra {
+  display: none;
 }
