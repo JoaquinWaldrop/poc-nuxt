@@ -24,4 +24,13 @@
     @include text($white, 'Cambria', mobile(14px), mobile(24px), normal);
     text-align: center;
   }
+
+  &__tooltip-text {
+    left: 0;
+    margin: 0 auto;
+    padding: mobile(5px) 0;
+    right: 0;
+    top: mobile(-35px);
+    width: mobile(200px);
+  }
 }

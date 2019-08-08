@@ -12,17 +12,21 @@
           </a>
         </div>
         <div v-else class="footer__email">
-          <a :href="item.url">
-            <img
-              src="~/assets/images/linked-in.svg"
-              :alt="item.url"
-              class="footer__icon"
-            />
-          </a>
-          <a :href="item.url" class="footer__text">{{ item.url }}</a>
+          <img
+            src="~/assets/images/linked-in.svg"
+            :alt="item.url"
+            class="footer__icon"
+            @click="copyEmailToClipboard(item.url)"
+          />
+          <span class="footer__text" @click="copyEmailToClipboard(item.url)">
+            {{ item.url }}
+          </span>
         </div>
       </li>
     </ul>
+    <div v-show="textCopied" class="footer__tooltip">
+      <span class="footer__tooltip-text">Copy to clipboard</span>
+    </div>
     <div class="footer__copyright col-xs-12 col-md-6 center-xs end-md">
       {{ copyRight }}
     </div>
@@ -41,7 +45,35 @@ export default {
         },
         { url: 'www.youtube.com', icon: '~/assets/images/youtube.svg' }
       ],
-      copyRight: `© Copyright ${new Date().getFullYear()} S4N`
+      copyRight: `© Copyright ${new Date().getFullYear()} S4N`,
+      textCopied: false
+    }
+  },
+  methods: {
+    copyEmailToClipboard(email) {
+      /* Creating HTML element for use document.execCommand() which has more browser support */
+      let inputField = document.createElement('input')
+      inputField.value = email
+      inputField.setAttribute('readonly', '')
+      inputField.style = { display: 'none' }
+      document.body.appendChild(inputField)
+      inputField.select()
+
+      /* Use of document.execCommand() */
+      document.execCommand('copy')
+      document.body.removeChild(inputField)
+
+      /* Show the tooltip */
+      this.textCopied = true
+
+      /* Hide the tooltip */
+      setTimeout(
+        () => {
+          this.textCopied = false
+        },
+        1500,
+        this
+      )
     }
   }
 }

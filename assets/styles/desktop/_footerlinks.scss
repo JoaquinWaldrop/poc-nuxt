@@ -16,10 +16,12 @@
   &__icon {
     @include max-dimensions(desktop(32px), desktop(31px));
     color: $white;
+    cursor: pointer;
   }
 
   &__text {
     @include text($white, 'Cambria', desktop(18px), desktop(24px), normal);
+    cursor: pointer;
     margin-left: desktop(17px);
     text-decoration: none;
   }
@@ -27,5 +29,23 @@
   &__copyright {
     @include text($white, 'Cambria', desktop(18px), desktop(24px), normal);
     align-self: center;
+  }
+
+  &__tooltip {
+    display: inline-block;
+    position: relative;
+  }
+
+  &__tooltip-text {
+    background-color: $greyish-brown;
+    border-radius: 6px;
+    color: $white;
+    padding: desktop(5px) 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    text-align: center;
+    width: desktop(200px);
+    z-index: 1;
   }
 }
