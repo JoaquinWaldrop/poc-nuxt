@@ -8,3 +8,17 @@
   background-color: $ocean-blue;
   width: desktop(82px);
 }
+
+.prueba {
+  background-color: $cherry-red;
+  height: 60px;
+  transform: rotate(-45deg);
+}
+
+.prueba2 {
+  overflow: hidden;
+}
+
+.prueba3 {
+  display: flex;
+}
