@@ -18,7 +18,7 @@
     "@nuxtjs/style-resources": "^0.1.2",
     "aos": "^2.3.4",
     "contentful": "^7.8.2",
-    "nuxt": "^2.0.0",
+    "nuxt": "^2.16.3",
     "nuxt-i18n": "^6.0.0"
   },
   "devDependencies": {
@@ -54,6 +54,6 @@
     "stylelint-prettier": "^1.1.1",
     "stylelint-selector-bem-pattern": "^2.1.0",
     "stylelint-webpack-plugin": "^0.10.5",
-    "vue-jest": "^3.0.3"
+    "vue-jest": "^4.0.1"
   }
 }
